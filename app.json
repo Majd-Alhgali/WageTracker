@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "يومية عامل",
+    "slug": "WageTracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0F1115",
+    "primaryColor": "#3DDC97",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.majd.wagetracker"
+    },
+    "android": {
+      "package": "com.majd.wagetracker",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F1115",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "rtl": true,
+      "eas": {
+        "projectId": "7dab1688-e965-4a9a-aed1-846e4190d3b6"
+      }
+    },
+    "owner": "majdalhgali"
+  }
+}
